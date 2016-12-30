@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>图片banner两侧延伸</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="css/beta.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/list.css"/>
+	<link rel="stylesheet" type="text/css" href="css/beta.css"/>
+	<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.8.2/jquery.min.js"></script>
+
+</head>
+
+<body>
+<script type="text/javascript" src="js/thief.js"></script>
+<script type="text/javascript">
+
+	$(document).ready(function () {
+		var imgrgb = getAverageRGB(document.getElementById('bigPic'));
+		var r = imgrgb.r;
+		var g = imgrgb.g;
+		var b = imgrgb.b;
+		var sRgb = "RGB("+r+","+g+","+b+")" ;
+		var sHexColor = sRgb.colorRgb();
+		var lrgb = "background:linear-gradient(to right, rgba("+r+","+g+","+b+",1) 0%,rgba("+r+","+g+","+b+",0) 100%);";
+		var rrgb = "background:linear-gradient(to right, rgba("+r+","+g+","+b+",0) 0%,rgba("+r+","+g+","+b+",1) 100%);";
+		$(".tit-banner").css("background-color",sHexColor);
+		$(".banner-left-mask").attr("style",lrgb);
+		$(".banner-right-mask").attr("style",rrgb);
+	})
+
+</script>
+<!--main开始-->
+<div class="main moring_paper clearfix">
+	<div class="tit-banner">
+		<div class="w1000">
+			<a class="big-banner-pic" href="#" target="_blank" title="bigpic"><img id="bigPic" src="img/shao2.jpg" alt="bigPic"/></a>
+			<div class="tit-banner-news">
+				<div class="banner-time">10-18</div>
+				<a class="banner-news"  title="吃夜宵会导致胃癌吗？">吃夜宵会导致胃癌吗？</a>
+			</div>
+			<div class="banner-left-mask"></div>
+			<div class="banner-right-mask"></div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

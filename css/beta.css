@@ -1,0 +1,75 @@
+/* CSS Document */
+@charset "UTF-8";
+html,body{_background-attachment:fixed;}
+body{margin:0 auto;padding:0;font-size:12px/*;font-family:'Microsoft Yahei'*/;color:#505050;-webkit-text-size-adjust:none;background:#fff; font-family:simsun}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,input,button,textarea,p,th,td{margin:0px;padding:0px;}
+input,select{font-size:12px;line-height:20px;height:20px;}
+img{border:0;-ms-interpolation-mode:bicubic;}
+em,i { font-style:normal;}
+ul,li{list-style-type:none;}
+:focus{outline:0;}
+h2,h3,h4{font-size:14px;font-family:"Microsoft Yahei";}
+h5{font-size:12px;font-weight:normal;}
+a{color:#505050;text-decoration:none;}
+a:hover{color:#ba3022;text-decoration:underline;}
+.clearfix:after{content:"\0020";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+.clear{ clear: both;}
+/* comm */
+.fl,.main .fl {float:left;}
+.fr,.main .fr {float:right;}
+.red{color:#ba3022;}
+.green{color:#8AB119;}
+.blue{color:#2d8cc6;}
+.bbe3{border-bottom: 1px solid #e5e5e5;}
+.bornone{border: none;}
+.bold{font-weight:bold;}
+.fz12{font-size:12px;}
+.fz14{font-size:14px;}
+.bt2{border-top: 2px solid #ba3022;}
+.mb{margin-bottom: 0;}
+.mb20{margin-bottom: 20px;}
+.mb30{margin-bottom: 30px;}
+.mt20{margin-top: 20px;}
+.mt30{margin-top: 30px;}
+.ml20{margin-left: 20px;}
+.mr20{margin-right: 20px;}
+.mb36{margin-bottom: 36px;}
+.pt20{padding-top: 20px;}
+.pb20{padding-bottom: 20px;}
+.main .mt0,.w1000 .mt0{margin-top:0px;}
+.main .mt10,.w1000 .mt10{margin-top:10px;}
+.main .mt15,.w1000 .mt15{margin-top:15px;}
+.main .mt20,.w1000 .mt20{margin-top:20px;}
+.main .mr10,.w1000 .mr10{margin-right:10px;}
+.main .ml0,.w1000 .ml0{margin-left:0px;}
+.main .mb5,.w1000 .mb5{margin-bottom: 5px;}
+.main .mt5,.w1000 .mt5{margin-top: 5px;}
+.main .mb10,.w1000 .mb10{margin-bottom: 10px;}
+.main .mb20,.w1000 .mb20{margin-bottom: 20px;}
+.main .pb0,.w1000 .pb0{padding-bottom:0px;}
+.main .pb10,.w1000 .pb10 { padding-bottom:10px;}
+.main .w470,.w1000 .w470 { width:470px;}
+.main .bortop2,.w1000 .bortop2 { border-top: 2px solid #5c291f;}
+.main .pl0,.w1000 .pl0 { padding-left:0px;}
+.main .pl10,.w1000 .pl10 { padding-left:10px;}
+.main .pl15,.w1000 .pl15 { padding-left:15px;}
+.main .pl20,.w1000 .pl20 { padding-left:20px;}
+.main .pr10,.w1000 .pr10 { padding-right:10px;}
+.main .mAutoRL,.w1000 .mAutoRL { margin-left:auto; margin-right:auto;}
+.main .dBlock,.w1000 .dBlock { display:block;}
+.main .w335,.w1000 .w335 { width:335px;}
+.main .floatNone,.w1000 .floatNone { float:none;}
+.fontst { font-family:"瀹嬩綋";}
+
+.contains {width: 100%; position: relative;}
+.w1000 {width:1000px; margin-left:auto; margin-right:auto;}
+.w730 {width:730px}
+.w250 {width:250px}
+.list24 li{height:24px;line-height:24px;background:url(../img/cngold_sprite.png) -657px -77px no-repeat;text-indent:13px;overflow:hidden;}
+.list24 li span{float:right;font-size:10px;font-family:Arial;color:#a0a0a0;font-style:italic;}
+.list28 li{height:28px;line-height:28px;background:url(../img/cngold_sprite.png) -650px -74px no-repeat;text-indent:20px;overflow:hidden; font-size:14px; color:#ccc;}
+.list30 li{height:30px;line-height:30px;background:url(../img/cngold_sprite.png) -650px -74px no-repeat;text-indent:20px;overflow:hidden;}
+.row2 li{width:49%;float:left;}
+.row3 li{width:32%;float:left;}
+.row4 li{width:24%;float:left;}
